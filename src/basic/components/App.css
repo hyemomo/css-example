@@ -1,0 +1,64 @@
+body{text-align: center;}
+.orange{color:orange}
+.profile{
+width: 300px;
+text-align: center;
+background-color: hsl(0, 0%, 92%);
+ box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+ border-radius: 10px;
+ margin-bottom:20px;
+
+}
+.photo{
+    width:200px;
+  height: auto;
+  
+  
+;
+
+}
+.avatar{
+   
+  width:200px;
+   position: relative;
+   margin:auto;
+}
+.isNew{
+  width:30px;
+  height: 20px;
+  position: absolute;
+  top:10%;
+  left:86%;
+  background-color: rgb(191, 239, 146);
+  font-size: 13px;
+  border-radius: 10px;
+
+
+
+  
+
+}
+.counter{
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 2rem;
+padding: 1rem;
+border-radius: 1rem;
+border:1px solid rebeccapurple;
+
+}
+.counter:hover{
+  background-color: yellowgreen;
+
+}
+.number{font-size:7rem}
+.button{font-size:2rem;
+padding:0.2rem 1rem;
+border-radius: 0.5rem;
+cursor:pointer;
+background-color: aqua;
+
+}
+.total{font-size: 1rem;
+margin-left: -0.5rem;}
